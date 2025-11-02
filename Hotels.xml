@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?> <!--XML Version and Encoding Type.-->
+<Hotels> <!--This is the root element of the XML structure Hotels.-->
+    <Hotel Rating="4.2"> <!--This is the rating of the sample hotel.-->
+        <Name>Westin</Name> <!--This is the name of the sample hotel.-->
+        <Phone>480-968-8885</Phone> <!--This is one phone number of the sample hotel.-->
+        <Phone>800-937-8461</Phone> <!--This is one phone number of the sample hotel.-->
+        <Address NearestAirport="Sky Harbor"> <!--This is the closest airport to the sample hotel.-->
+            <Number>11</Number> <!--This is the address number of the sample hotel address.-->
+            <Street>E 7th St</Street> <!--This is street where the sample hotel is located in.-->
+            <City>Tempe</City> <!--This is the city where the sample hotel is located in.-->
+            <State>AZ</State> <!--This is the state abbreviation where the sample hotel is located in.-->
+            <Zip>85281</Zip> <!--This is the zip code of the sample hotel.-->
+        </Address>
+    </Hotel>
+    <Hotel Rating="3.5"> <!--This is the rating of hotel 1.-->
+        <Name>Red Roof PLUS+</Name> <!--This is the name of hotel 1.-->
+        <Phone>937-328-1601</Phone> <!--This is the phone number of hotel 1.-->
+        <Address NearestAirport="Sky Harbor"> <!--This is the closest airport to hotel 1.-->
+            <Number>5215</Number> <!--This is the address number of hotel 1's address.-->
+            <Street>W Willetta St</Street> <!--This is street where hotel 1 is located in.-->
+            <City>Phoenix</City> <!--This is the city where hotel 1 is located in.-->
+            <State>AZ</State> <!--This is the state abbreviation where hotel 1 is located in.-->
+            <Zip>85043</Zip> <!--This is the zip code of hotel 1.-->
+        </Address>
+    </Hotel>
+    <Hotel Rating="3.0"> <!--This is the rating of hotel 2.-->
+        <Name>Premier Inns</Name> <!--This is the name of hotel 2.-->
+        <Phone>623-533-4660</Phone> <!--This is the phone number of hotel 2.-->
+        <Address NearestAirport="Sky Harbor"> <!--This is the closest airport to hotel 2.-->
+            <Number>8399</Number> <!--This is the address number of hotel 2's address.-->
+            <Street>W Lynwood St</Street> <!--This is street where hotel 2 is located in.-->
+            <City>Tolleson</City> <!--This is the city where hotel 2 is located in.-->
+            <State>AZ</State> <!--This is the state abbreviation where hotel 2 is located in.-->
+            <Zip>85353</Zip> <!--This is the zip code of hotel 2.-->
+        </Address>
+    </Hotel>
+    <Hotel Rating="4.3"> <!--This is the rating of hotel 3.-->
+        <Name>Best Western</Name> <!--This is the name of hotel 3.-->
+        <Phone>800-780-7234</Phone> <!--This is one phone number of hotel 3.-->
+        <Phone>623-936-6000</Phone> <!--This is one phone number of hotel 3.-->
+        <Address NearestAirport="Sky Harbor"> <!--This is the closest airport to hotel 3.-->
+            <Number>8421</Number> <!--This is the address number of hotel 3's address.-->
+            <Street>W McDowell Rd</Street> <!--This is street where hotel 3 is located in.-->
+            <City>Tolleson</City> <!--This is the city where hotel 3 is located in.-->
+            <State>AZ</State> <!--This is the state abbreviation where hotel 3 is located in.-->
+            <Zip>85353</Zip> <!--This is the zip code of hotel 3.-->
+        </Address>
+    </Hotel>
+    <Hotel Rating="4.2"> <!--This is the rating of hotel 4.-->
+        <Name>Harrah's Ak-Chin Hotel And Casino - A Caesars Rewards Destination</Name> <!--This is the name of hotel 4.-->
+        <Phone>480-802-5000</Phone> <!--This is the phone number of hotel 4.-->
+        <Address NearestAirport="Sky Harbor"> <!--This is the closest airport to hotel 4.-->
+            <Number>15406</Number> <!--This is the address number of hotel 4's address.-->
+            <Street>Maricopa Rd</Street> <!--This is street where hotel 4 is located in.-->
+            <City>Maricopa</City> <!--This is the city where hotel 4 is located in.-->
+            <State>AZ</State> <!--This is the state abbreviation where hotel 4 is located in.-->
+            <Zip>85139</Zip> <!--This is the zip code of hotel 4.-->
+        </Address>
+    </Hotel>
+    <Hotel Rating="4.0"> <!--This is the rating of hotel 5.-->
+        <Name>The Clarendon Hotel and Spa</Name> <!--This is the name of hotel 5.-->
+        <Phone>602-252-7363</Phone> <!--This is the phone number of hotel 5.-->
+        <Address NearestAirport="Sky Harbor"> <!--This is the closest airport to hotel 5.-->
+            <Number>401</Number> <!--This is the address number of hotel 5's address.-->
+            <Street>W Clarendon Ave</Street> <!--This is street where hotel 5 is located in.-->
+            <City>Phoenix</City> <!--This is the city where hotel 5 is located in.-->
+            <State>AZ</State> <!--This is the state abbreviation where hotel 5 is located in.-->
+            <Zip>85013</Zip> <!--This is the zip code of hotel 5.-->
+        </Address>
+    </Hotel>
+    <Hotel Rating="3.3"> <!--This is the rating of hotel 6.-->
+        <Name>Travelers Inn Phoenix</Name> <!--This is the name of hotel 6.-->
+        <Phone>602-233-1988</Phone> <!--This is the phone number of hotel 6.-->
+        <Address NearestAirport="Sky Harbor"> <!--This is the closest airport to hotel 6.-->
+            <Number>5102</Number> <!--This is the address number of hotel 6's address.-->
+            <Street>W Latham St</Street> <!--This is street where hotel 6 is located in.-->
+            <City>Phoenix</City> <!--This is the city where hotel 6 is located in.-->
+            <State>AZ</State> <!--This is the state abbreviation where hotel 6 is located in.-->
+            <Zip>85043</Zip> <!--This is the zip code of hotel 6.-->
+        </Address>
+    </Hotel>
+    <Hotel Rating="4.2"> <!--This is the rating of hotel 7.-->
+        <Name>Hilton Vacation Club Scottsdale Villa Mirage</Name> <!--This is the name of hotel 7.-->
+        <Phone>480-473-4000</Phone> <!--This is the phone number of hotel 7.-->
+        <Address NearestAirport="Scottsdale Airport"> <!--This is the closest airport to hotel 7.-->
+            <Number>7887</Number> <!--This is the address number of hotel 7's address.-->
+            <Street>E Princess Blvd</Street> <!--This is street where hotel 7 is located in.-->
+            <City>Scottsdale</City> <!--This is the city where hotel 7 is located in.-->
+            <State>AZ</State> <!--This is the state abbreviation where hotel 7 is located in.-->
+            <Zip>85255</Zip> <!--This is the zip code of hotel 7.-->
+        </Address>
+    </Hotel>
+    <Hotel Rating="2.0"> <!--This is the rating of hotel 8.-->
+        <Name>Econo Lodge Phoenix North I-17</Name> <!--This is the name of hotel 8.-->
+        <Phone>602-942-5030</Phone> <!--This is the phone number of hotel 8.-->
+        <Address NearestAirport="Phoenix Deer Valley Airport"> <!--This is the closest airport to hotel 8.-->
+            <Number>2735</Number> <!--This is the address number of hotel 8's address.-->
+            <Street>W Sweetwater Avenue</Street> <!--This is street where hotel 8 is located in.-->
+            <City>Phoenix</City> <!--This is the city where hotel 8 is located in.-->
+            <State>AZ</State> <!--This is the state abbreviation where hotel 8 is located in.-->
+            <Zip>85029</Zip> <!--This is the zip code of hotel 8.-->
+        </Address>
+    </Hotel>
+    <Hotel Rating="3.2"> <!--This is the rating of hotel 9.-->
+        <Name>E-Z 8 Motel</Name> <!--This is the name of hotel 9.-->
+        <Phone>602-254-9787</Phone> <!--This is the phone number of hotel 9.-->
+        <Address NearestAirport="Sky Harbor"> <!--This is the closest airport to hotel 9.-->
+            <Number>1820</Number> <!--This is the address number of hotel 9's address.-->
+            <Street>S 7th St</Street> <!--This is street where hotel 9 is located in.-->
+            <City>Phoenix</City> <!--This is the city where hotel 9 is located in.-->
+            <State>AZ</State> <!--This is the state abbreviation where hotel 9 is located in.-->
+            <Zip>85034</Zip> <!--This is the zip code of hotel 9.-->
+        </Address>
+    </Hotel>
+    <Hotel Rating="4.5"> <!--This is the rating of hotel 10.-->
+        <Name>Kohl's Ranch Lodge</Name> <!--This is the name of hotel 10.-->
+        <Phone>928-478-4211</Phone> <!--This is one phone number of hotel 10.-->
+        <Phone>800-438-2929</Phone> <!--This is one phone number of hotel 10.-->
+        <Address NearestAirport="Phoenix Scottsdale Municipal Airport"> <!--This is the closest airport to hotel 10.-->
+            <Number>202</Number> <!--This is the address number of hotel 10's address.-->
+            <Street>S Kohl Ranch Lodge Rd</Street> <!--This is street where hotel 10 is located in.-->
+            <City>Payson</City> <!--This is the city where hotel 10 is located in.-->
+            <State>AZ</State> <!--This is the state abbreviation where hotel 10 is located in.-->
+            <Zip>85541</Zip> <!--This is the zip code of hotel 10.-->
+        </Address>
+    </Hotel>
+</Hotels>
