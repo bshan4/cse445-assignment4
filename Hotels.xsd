@@ -41,7 +41,7 @@
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
-                        <xs:attribute name="Rating" type="xs:RatingType" use="optional"/> <!--This is the rating of the hotel, an optional attribute.-->
+                        <xs:attribute name="Rating" type="xs:string" use="optional"/> <!--This is the rating of the hotel, an optional attribute.-->
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
