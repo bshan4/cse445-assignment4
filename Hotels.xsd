@@ -15,11 +15,6 @@
             <xs:pattern value="^\d{3}-\d{3}-\d{4}$"/>
         </xs:restriction>
     </xs:simpleType>
-    <xs:simpleType name="RatingType">
-        <xs:restriction base="xs:decimal">
-            <xs:pattern value="^(?:[0-4](?:\.0|\.5)|5\.0)$"/>
-        </xs:restriction>
-    </xs:simpleType>
     <xs:element name="Hotels"> <!--This is the root element of the XML structure Hotels.-->
         <xs:complexType> <!--The Hotels element will have child elements (Hotel).-->
             <xs:sequence> <!--The child element order will be enforced exactly as listed.-->                
@@ -27,7 +22,6 @@
                     <xs:complexType> <!--The Hotel elements will have child elements.-->
                         <xs:sequence> <!--The child elements' order will be enforced exactly as listed.-->
                             <xs:element name="Name" type="xs:string"/> <!--This is the Hotel's name. There is only one element.-->
-                            <xs:element name="Phone" type="PhoneNumberType" minOccurs="1" maxOccurs="unbounded"/> <!--This is the Hotel's one or more phone numbers.-->                  
                             <xs:element name="Address"> <!--This is the Hotel's Address-->
                                 <xs:complexType> <!--The Address element will have child elements.-->
                                     <xs:sequence> <!--The child element order will be enforced exactly as listed.-->
@@ -40,6 +34,7 @@
                                     <xs:attribute name="NearestAirport" type="xs:string" use="optional"/> <!--This is the nearest airport to the hotel, a required attribute.-->
                                 </xs:complexType>
                             </xs:element>
+                            <xs:element name="Phone" type="PhoneNumberType" minOccurs="1" maxOccurs="unbounded"/> <!--This is the Hotel's one or more phone numbers.-->                    
                         </xs:sequence>
                         <xs:attribute name="Rating" type="xs:decimal" use="optional"/> <!--This is the rating of the hotel, an optional attribute.-->
                     </xs:complexType>
