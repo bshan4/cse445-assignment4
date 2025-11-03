@@ -34,14 +34,14 @@
                                         <xs:element name="Number" type="xs:positiveInteger"/> <!--This is the address number.-->
                                         <xs:element name="Street" type="xs:string"/> <!--This is the address street.-->
                                         <xs:element name="City" type="xs:string"/> <!--This is the address city.-->
-                                        <xs:element name="State" type="xs:string"/> <!--This is the address state abbreviation.-->
-                                        <xs:element name ="Zip" type="xs:string"/> <!--This is the address zip code.-->
+                                        <xs:element name="State" type="StateCodeType"/> <!--This is the address state abbreviation.-->
+                                        <xs:element name ="Zip" type="ZipCodeType"/> <!--This is the address zip code.-->
                                     </xs:sequence>
                                     <xs:attribute name="NearestAirport" type="xs:string" use="required"/> <!--This is the nearest airport to the hotel, a required attribute.-->
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
-                        <xs:attribute name="Rating" type="xs:string" use="optional"/> <!--This is the rating of the hotel, an optional attribute.-->
+                        <xs:attribute name="Rating" type="xs:RatingType" use="optional"/> <!--This is the rating of the hotel, an optional attribute.-->
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
