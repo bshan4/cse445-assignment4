@@ -37,7 +37,7 @@
                                         <xs:element name="State" type="StateCodeType"/> <!--This is the address state abbreviation.-->
                                         <xs:element name ="Zip" type="ZipCodeType"/> <!--This is the address zip code.-->
                                     </xs:sequence>
-                                    <xs:attribute name="NearestAirport" type="xs:string" use="optional"/> <!--This is the nearest airport to the hotel, a required attribute.-->
+                                    <xs:attribute name="NearestAirport" type="xs:string" use="required"/> <!--This is the nearest airport to the hotel, a required attribute.-->
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
