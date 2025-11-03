@@ -25,13 +25,13 @@
                             <xs:element name="Address"> <!--This is the Hotel's Address-->
                                 <xs:complexType> <!--The Address element will have child elements.-->
                                     <xs:sequence> <!--The child element order will be enforced exactly as listed.-->
-                                        <xs:element name="Number" type="xs:int"/> <!--This is the address number.-->
+                                        <xs:element name="Number" type="xs:positiveInteger"/> <!--This is the address number.-->
                                         <xs:element name="Street" type="xs:string"/> <!--This is the address street.-->
                                         <xs:element name="City" type="xs:string"/> <!--This is the address city.-->
                                         <xs:element name="State" type="StateCodeType"/> <!--This is the address state abbreviation.-->
                                         <xs:element name ="Zip" type="ZipCodeType"/> <!--This is the address zip code.-->
                                     </xs:sequence>
-                                    <xs:attribute name="NearestAirport" type="xs:string" use="optional"/> <!--This is the nearest airport to the hotel, a required attribute.-->
+                                    <xs:attribute name="NearestAirport" type="xs:string" use="required"/> <!--This is the nearest airport to the hotel, a required attribute.-->
                                 </xs:complexType>
                             </xs:element>
                             <xs:element name="Phone" type="PhoneNumberType" minOccurs="1" maxOccurs="unbounded"/> <!--This is the Hotel's one or more phone numbers.-->                    
