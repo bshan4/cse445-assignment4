@@ -40,9 +40,8 @@
                                     <xs:attribute name="NearestAirport" type="xs:string" use="required"/> <!--This is the nearest airport to the hotel, a required attribute.-->
                                 </xs:complexType>
                             </xs:element>
-                            <xs:attribute name="Rating" type="xs:decimal" use="optional"/> <!--This is the rating of the hotel, an optional attribute.-->
                         </xs:sequence>
-                    <xs:complexType>
+                        <xs:attribute name="Rating" type="xs:decimal" use="optional"/> <!--This is the rating of the hotel, an optional attribute.-->
                 </xs:element>
             </xs:sequence>
         </xs:complexType>
